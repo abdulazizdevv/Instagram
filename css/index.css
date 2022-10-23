@@ -32,7 +32,7 @@ input:focus {
 }
 
 body {
-  background-color: #FAFAFA;
+  /* background-color: #FAFAFA; */
 }
 
 nav {
@@ -104,5 +104,17 @@ nav {
   border-radius: 0 8px 8px 0;
   padding: 0 15px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+  .search {
+    display: none;
+  }
+  nav {
+    padding: 15px 0;
+  }
+  .menus a {
+    padding-left: 10px;
+  }
 }
 /*# sourceMappingURL=index.css.map */

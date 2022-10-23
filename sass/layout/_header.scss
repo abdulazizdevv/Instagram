@@ -54,3 +54,16 @@ nav {
     cursor: pointer;
   }
 }
+@media screen and (max-width: 650px) {
+  .search {
+    display: none;
+  }
+  nav {
+    padding: 15px 0;
+  }
+  .menus {
+    a {
+      padding-left: 10px;
+    }
+  }
+}

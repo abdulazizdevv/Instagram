@@ -1,5 +1,17 @@
-.second_section {
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.frame {
   margin-top: 16px;
+}
+
+.first_section {
+  -webkit-box-flex: 60%;
+      -ms-flex: 60%;
+          flex: 60%;
 }
 
 .members::-webkit-scrollbar {
@@ -8,7 +20,7 @@
 
 .members {
   height: 110px;
-  width: 600px;
+  max-width: 600px;
   overflow-x: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -41,13 +53,16 @@
   border-radius: 50%;
 }
 
-.left a {
+.left {
+  margin-left: 30px;
+  -webkit-box-flex: 40%;
+      -ms-flex: 40%;
+          flex: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  gap: 15px;
+  margin-top: 100px;
 }
 
 .left a img {
@@ -56,12 +71,125 @@
 }
 
 .left a p {
-  font-family: 'Segoe UI', sans-serif;
-  color: #010101;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #1c1c1c;
   font-size: 14px;
-  font-weight: bolder;
-  margin-left: 5px;
   font-size: 14px;
   line-height: 18px;
+}
+
+.profiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.profiles .hero {
+  color: #8e8e8e;
+}
+
+.profiles div .switch {
+  margin-left: 150px;
+  color: #0095f6;
+}
+
+.profil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  padding-bottom: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profil .hero {
+  color: #8e8e8e;
+  max-width: 300px;
+}
+
+.profil div a {
+  margin-left: 100px;
+  color: #0095f6;
+}
+
+.main .little {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .little .small {
+  padding-top: 16px;
+  margin-left: 30px;
+  color: #8e8e8e;
+}
+
+.main .little .all {
+  font-family: "Segoe UI", Arial, sans-serif;
+  padding-top: 16px;
+  margin-left: 220px;
+  color: #1c1c1c;
+  font-size: 14px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.once {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 16px;
+  gap: 15px;
+}
+
+.once img {
+  width: 32px;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+
+.profil img {
+  margin-left: 30px;
+  width: 32px;
+  border-radius: 50%;
+}
+
+.profil .one {
+  margin-left: 60px;
+}
+
+.profil .second {
+  margin-left: 45px;
+}
+
+.profil .third {
+  margin-left: 20px;
+}
+
+.profil .end {
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  iframe {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */
