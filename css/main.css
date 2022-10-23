@@ -1,0 +1,67 @@
+.second_section {
+  margin-top: 16px;
+}
+
+.members::-webkit-scrollbar {
+  display: none;
+}
+
+.members {
+  height: 110px;
+  width: 600px;
+  overflow-x: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 540px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  margin-top: 85px;
+  border-radius: 8px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.members div {
+  padding-top: 16px;
+}
+
+.members a p {
+  text-align: center;
+  margin-left: 16px;
+  color: #262626;
+  font-size: 12px;
+}
+
+.members a img {
+  margin: 0 auto;
+  border: 2px solid #ff8400;
+  margin-left: 16px;
+  width: 56px;
+  border-radius: 50%;
+}
+
+.left a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.left a img {
+  width: 56px;
+  border-radius: 50%;
+}
+
+.left a p {
+  font-family: 'Segoe UI', sans-serif;
+  color: #010101;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-left: 5px;
+  font-size: 14px;
+  line-height: 18px;
+}
+/*# sourceMappingURL=main.css.map */
