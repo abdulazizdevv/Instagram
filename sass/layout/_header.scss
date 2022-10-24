@@ -27,6 +27,12 @@ nav {
   a {
     display: inline-block;
     padding: 0 15px;
+    img  {
+      width: 30px;
+      border-radius: 50%;
+      border: 2px solid rgb(106, 101, 101);
+      padding: 1px;
+    }
   }
 }
 

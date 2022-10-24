@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../sass/pages/profile.scss"
-    ],
-    "names": [],
-    "file": "profile.css"
-}
+{"version":3,"sources":["../sass/pages/profile.scss","profile.css"],"names":[],"mappings":"AAAA;EACI,uBAAA;ACCJ;;ADCA;EACI,iBAAA;EACA,aAAA;ACEJ;ADDI;EACI,yBAAA;ACGR;ADFQ;EACI,kBAAA;ACIZ;ADAI;EACI,aAAA;ACER;ADCQ;EACI,eAAA;ACCZ;ADGY;EACI,eAAA;EACA,YAAA;EACA,WAAA;EACA,kBAAA;EACA,yBAAA;EACA,cAAA;EACA,6BAAA;ACDhB;ADKI;EACI,gBAAA;EACA,cAAA;ACHR;ADKY;EACI,kBAAA;ACHhB;ADMQ;EACA,cAAA;ACJR;ADOI;EACI,iBAAA;ACLR","file":"profile.css"}

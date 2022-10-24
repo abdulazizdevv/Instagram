@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../sass/pages/masseges.scss"
-    ],
-    "names": [],
-    "file": "masseges.css"
-}
+{"version":3,"sources":[],"names":[],"mappings":"","file":"masseges.css"}

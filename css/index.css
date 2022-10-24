@@ -2,8 +2,7 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
@@ -32,63 +31,48 @@ input:focus {
 }
 
 body {
-  /* background-color: #FAFAFA; */
+  background-color: #FAFAFA;
 }
 
 nav {
-  position: fixed;
-  top: 0;
   width: 100%;
   padding: 15px;
   background-color: #fff;
-  border-bottom: 1px solid #dbdbdb;
+  border-bottom: 1px solid rgb(219, 219, 219);
 }
 
 .navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   align-items: center;
 }
 
 .logo a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .menus {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .menus a {
   display: inline-block;
   padding: 0 15px;
 }
+.menus a img {
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid rgb(106, 101, 101);
+  padding: 1px;
+}
 
 .search {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
 }
-
 .search form {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .search input {
   border: none;
   padding: 3px 16px;
@@ -97,9 +81,8 @@ nav {
   max-width: 270px;
   width: 100%;
   border-radius: 8px 0 0 8px;
-  background-color: #efefef;
+  background-color: rgb(239, 239, 239);
 }
-
 .search button {
   border-radius: 0 8px 8px 0;
   padding: 0 15px;
@@ -116,5 +99,4 @@ nav {
   .menus a {
     padding-left: 10px;
   }
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

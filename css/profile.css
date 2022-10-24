@@ -1,1 +1,42 @@
-/* No CSS *//*# sourceMappingURL=profile.css.map */
+* {
+  font-family: sans-serif;
+}
+
+.s-1 {
+  margin: 30px auto;
+  display: flex;
+}
+.s-1 .photo {
+  margin: 30px 100px 0 80px;
+}
+.s-1 .photo img {
+  border-radius: 50%;
+}
+.s-1 .doc-1, .s-1 .doc-2 {
+  display: flex;
+}
+.s-1 .doc-1 p {
+  font-size: 28px;
+}
+.s-1 .doc-1 form button {
+  font-size: 14px;
+  height: 30px;
+  width: 90px;
+  border-radius: 5px;
+  border: 1px solid #DBDBDB;
+  margin: 0 20px;
+  background-color: transparent;
+}
+.s-1 .doc-2 {
+  word-spacing: 10;
+  margin: 25px 0;
+}
+.s-1 .doc-2 p b {
+  margin-right: 10px;
+}
+.s-1 .doc-2 .m-1 {
+  margin: 0 40px;
+}
+.s-1 .doc-3 {
+  line-height: 25px;
+}/*# sourceMappingURL=profile.css.map */

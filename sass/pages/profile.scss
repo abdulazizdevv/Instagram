@@ -1,0 +1,49 @@
+* {
+    font-family: sans-serif;
+}
+.s-1 {
+    margin: 30px auto;
+    display: flex;
+    .photo {
+        margin: 30px 100px 0 80px;
+        img {
+            border-radius: 50%;
+        }
+
+    }
+    .doc-1, .doc-2 {
+        display: flex;
+    }
+    .doc-1 {
+        p {
+            font-size: 28px;
+            
+        }
+        form {
+            button {
+                font-size: 14px;
+                height: 30px;
+                width: 90px;
+                border-radius: 5px;
+                border: 1px solid #DBDBDB;
+                margin: 0 20px;
+                background-color: transparent;
+            }
+        }
+    }
+    .doc-2 {
+        word-spacing: 10;
+        margin: 25px 0;
+        p {
+            b {
+                margin-right: 10px;
+            }
+        }
+        .m-1 {
+        margin: 0 40px;
+        }
+    }
+    .doc-3 {
+        line-height: 25px;
+    }
+}
