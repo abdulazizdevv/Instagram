@@ -39,4 +39,43 @@
 }
 .s-1 .doc-3 {
   line-height: 25px;
+}
+.s-1 .doc-3 .p-b {
+  color: #8E8E8E;
+}
+
+.s-2 p {
+  margin: 10px 0 0 87px;
+}
+.s-2 div {
+  margin: 80px 0 0 60px;
+  border: 1px solid #c7c7c7;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-3 {
+  margin-top: 50px;
+  border-top: 1px solid #000;
+}
+.s-3 .icons {
+  font-size: 14px;
+  margin: 15px 0 5px;
+  display: flex;
+  justify-content: center;
+}
+.s-3 .icons a {
+  color: #000;
+  margin: 0 10px;
+}
+.s-3 .posts {
+  text-align: center;
+}
+.s-3 .posts img {
+  width: 280px;
+  margin: 15px;
 }/*# sourceMappingURL=profile.css.map */
