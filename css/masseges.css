@@ -1,1 +1,139 @@
+.df {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.inb {
+  display: inline-block;
+}
+
+.general__messages {
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.nickname__box {
+  border: 1px solid #dbdbdb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 349px;
+  height: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nickname__box p {
+  display: inline-block;
+  padding: 21px 0px;
+}
+
+.nickname__box .fa-sharp {
+  margin: auto 0;
+}
+
+.nickname__box a:nth-child(1) {
+  color: black;
+  margin-left: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.icon__write {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-left: 40px;
+}
+
+.your__messages {
+  position: absolute;
+  top: 0;
+  border: 1px solid #dbdbdb;
+  width: 583px;
+  height: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.your__messages__inner {
+  position: absolute;
+  top: 100px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.all__chats {
+  border: 1px solid #dbdbdb;
+  width: 349px;
+  height: 735px;
+  display: inline-block;
+}
+
+.submit__photos {
+  margin-top: 10px;
+  text-align: center;
+  color: #8e8e8e;
+}
+
+._ab6- {
+  margin: 0 auto;
+}
+
+.submit__message__user {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: white;
+  border-radius: 3px;
+  display: block;
+  padding: 5px 9px;
+  background-color: blue;
+}
+
+.your_text_messages {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 965px) {
+  .your__messages {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 885px) {
+  .your__messages {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .your__messages {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .your__messages {
+    display: none;
+  }
+}
 /*# sourceMappingURL=masseges.css.map */

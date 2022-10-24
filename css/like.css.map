@@ -1,1 +1,9 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"like.css"}
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/pages/like.scss"
+    ],
+    "names": [],
+    "file": "like.css"
+}
