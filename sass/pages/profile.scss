@@ -1,88 +1,88 @@
 * {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 .s-1 {
-    margin: 30px auto;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  .photo {
+    margin: 30px 100px 0 80px;
+    img {
+      border-radius: 50%;
+    }
+  }
+  .doc-1,
+  .doc-2 {
     display: flex;
-    .photo {
-        margin: 30px 100px 0 80px;
-        img {
-            border-radius: 50%;
-        }
-
+  }
+  .doc-1 {
+    p {
+      font-size: 28px;
     }
-    .doc-1, .doc-2 {
-        display: flex;
+    form {
+      button {
+        font-size: 14px;
+        height: 30px;
+        width: 90px;
+        border-radius: 5px;
+        border: 1px solid #dbdbdb;
+        margin: 0 20px;
+        background-color: transparent;
+      }
     }
-    .doc-1 {
-        p {
-            font-size: 28px;
-            
-        }
-        form {
-            button {
-                font-size: 14px;
-                height: 30px;
-                width: 90px;
-                border-radius: 5px;
-                border: 1px solid #DBDBDB;
-                margin: 0 20px;
-                background-color: transparent;
-            }
-        }
+  }
+  .doc-2 {
+    word-spacing: 10;
+    margin: 25px 0;
+    p {
+      b {
+        margin-right: 10px;
+      }
     }
-    .doc-2 {
-        word-spacing: 10;
-        margin: 25px 0;
-        p {
-            b {
-                margin-right: 10px;
-            }
-        }
-        .m-1 {
-        margin: 0 40px;
-        }
+    .m-1 {
+      margin: 0 40px;
     }
-    .doc-3 {
-        line-height: 28px;
-        .p-b {
-            color: #8E8E8E;
-        }
+  }
+  .doc-3 {
+    line-height: 28px;
+    .p-b {
+      color: #8e8e8e;
     }
+  }
 }
 .s-2 {
-    p {
-        margin:10px 0 0 87px ;
-    }
-    div {
-        margin: 80px 0 0 60px;
-        border: 1px solid #c7c7c7;
-        border-radius: 50%;
-        width: 90px;
-        height: 90px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  p {
+    margin: 10px 0 0 87px;
+  }
+  div {
+    margin: 80px 0 0 60px;
+    border: 1px solid #c7c7c7;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .s-3 {
-    margin-top: 50px;
-    border-top: 1px solid #8E8E8E;
-    .icons {
-        font-size: 14px;
-        margin: 15px 0 5px;
-        display: flex;
-        justify-content: center;
-        a {
-            color: #000;
-            margin: 0 10px;
-        }
+  margin-top: 50px;
+  border-top: 1px solid #8e8e8e;
+  .icons {
+    font-size: 14px;
+    margin: 15px 0 5px;
+    display: flex;
+    justify-content: center;
+    a {
+      color: #000;
+      margin: 0 10px;
     }
-    .posts {
-        text-align: center;
-        img {
-            width: 280px;
-            margin: 15px;
-        }
+  }
+  .posts {
+    text-align: center;
+    img {
+      width: 280px;
+      margin: 15px;
     }
+  }
 }

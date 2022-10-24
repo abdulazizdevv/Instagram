@@ -7,6 +7,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .s-1 .photo {
@@ -17,7 +19,8 @@
   border-radius: 50%;
 }
 
-.s-1 .doc-1, .s-1 .doc-2 {
+.s-1 .doc-1,
+.s-1 .doc-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,7 +35,7 @@
   height: 30px;
   width: 90px;
   border-radius: 5px;
-  border: 1px solid #DBDBDB;
+  border: 1px solid #dbdbdb;
   margin: 0 20px;
   background-color: transparent;
 }
@@ -55,7 +58,7 @@
 }
 
 .s-1 .doc-3 .p-b {
-  color: #8E8E8E;
+  color: #8e8e8e;
 }
 
 .s-2 p {
@@ -81,7 +84,7 @@
 
 .s-3 {
   margin-top: 50px;
-  border-top: 1px solid #8E8E8E;
+  border-top: 1px solid #8e8e8e;
 }
 
 .s-3 .icons {
