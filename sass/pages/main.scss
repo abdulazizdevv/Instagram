@@ -26,7 +26,7 @@
   max-width: 540px;
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(219, 219, 219);
-  // margin-top: 85px;
+  margin-top: 30px;
   border-radius: 8px;
 
   overflow-x: scroll;
@@ -79,11 +79,16 @@
 .profiles {
   display: flex;
   justify-content: space-between;
+  margin-top: 8px;
+  p {
+    font-size: 10px;
+  }
   .hero {
     color: #8e8e8e;
   }
   div {
     .switch {
+      font-size: 10px;
       margin-left: 150px;
       color: rgb(0, 149, 246);
     }
@@ -95,6 +100,9 @@
   padding-bottom: 16px;
   align-items: center;
   // justify-content: space-between;
+  p {
+    font-size: 10px;
+  }
   .hero {
     color: #8e8e8e;
     max-width: 300px;
@@ -105,6 +113,7 @@
   }
 }
 .main {
+  margin-top: 30px;
   .little {
     display: flex;
     align-items: center;
@@ -117,10 +126,9 @@
       font-family: "Segoe UI", Arial, sans-serif;
       // font-weight: 600;
       padding-top: 16px;
-      margin-left: 220px;
+      margin-left: 172px;
       color: #1c1c1c;
-      font-size: 14px;
-      font-size: 14px;
+      font-size: 10px;
       line-height: 18px;
     }
   }
@@ -144,16 +152,20 @@
     border-radius: 50%;
   }
   .one {
-    margin-left: 60px;
+    font-size: 10px;
+    margin-left: 102px;
   }
   .second {
-    margin-left: 45px;
+    font-size: 10px;
+    margin-left: 91px;
   }
   .third {
-    margin-left: 20px;
+    font-size: 10px;
+    margin-left: 75px;
   }
   .end {
-    margin-left: 100px;
+    font-size: 10px;
+    margin-left: 135px;
   }
 }
 @media screen and (max-width: 600px) {

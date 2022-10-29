@@ -1,1 +1,244 @@
-/* No CSS *//*# sourceMappingURL=explore.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+
+nav {
+  padding: 15px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  align-items: center;
+}
+
+.logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menus a {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.search {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.search form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.search input {
+  padding: 3px 16px;
+  border-radius: 8px 0 0 8px;
+  background-color: #efefef;
+  border: none;
+  height: 36px;
+  width: 100%;
+  max-width: 270px;
+}
+
+.search button {
+  border-radius: 0 8px 8px 0;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+main .sektion1 {
+  margin-top: 30px;
+}
+
+main .sektion1 .container {
+  border: 1px solid red;
+  max-width: 1000px;
+  padding-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .sektion1 .container .left .vid1 {
+  margin-bottom: 10px;
+}
+
+main .sektion1 .container .left .vid2 {
+  margin-top: 10px;
+}
+
+main .sektion1 .container .right {
+  padding-left: 20px;
+}
+
+main .sektion1 .container .right img {
+  width: 510px;
+  height: 463px;
+}
+
+main .sektion2 .container {
+  border: 1px solid red;
+  max-width: 1000px;
+  padding-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .sektion2 .container .vid1 {
+  width: 318px;
+  padding: 10px 10px;
+}
+
+main .sektion3 {
+  margin-top: 5px;
+}
+
+main .sektion3 .container {
+  border: 1px solid red;
+  max-width: 1000px;
+  padding-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .sektion3 .container .left .vid1 {
+  margin-bottom: 10px;
+}
+
+main .sektion3 .container .left .vid2 {
+  margin-top: 10px;
+}
+
+main .sektion3 .container .right {
+  padding-right: 20px;
+}
+
+main .sektion3 .container .right img {
+  width: 510px;
+  height: 463px;
+}
+
+main .sektion4 .container {
+  border: 1px solid red;
+  max-width: 1000px;
+  padding-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .sektion4 .container .vid1 {
+  width: 318px;
+  padding: 8px 10px;
+}
+
+main .sektion5 {
+  margin-top: 5px;
+}
+
+main .sektion5 .container {
+  border: 1px solid red;
+  max-width: 1000px;
+  padding-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .sektion5 .container .left .vid1 {
+  width: 318px;
+  padding: 8px 10px;
+}
+
+main .sektion5 .container .right {
+  padding-right: 5px;
+}
+
+main .sektion5 .container .right img {
+  width: 285px;
+  height: 357px;
+  padding-top: 8px;
+}
+
+main .sektion6 .container {
+  border: 1px solid red;
+  max-width: 1000px;
+  padding-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .sektion6 .container .vid1 {
+  width: 318px;
+  padding: 8px 10px;
+}
+/*# sourceMappingURL=explore.css.map */
